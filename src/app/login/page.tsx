@@ -1,6 +1,7 @@
 'use client'
 import Button from '@/compoents/ui/Button'
-import { FC, useState, } from 'react'
+import { FC } from 'react'
+import { useState } from 'react'
 import {signIn} from 'next-auth/react'
 import toast from 'react-hot-toast'
 interface pageProps {

@@ -13,7 +13,7 @@ const Page: FC<pageProps> = ({}) => {
     async function loginWithGoogle(){
       setIsLoading(true);
       try{
-        throw new Error('SomeThing Wrong')
+        //throw new Error('SomeThing Wrong')
         await signIn('google')
       }
       catch(error){
